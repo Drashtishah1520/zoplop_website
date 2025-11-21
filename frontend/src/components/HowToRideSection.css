@@ -1,0 +1,71 @@
+.how-to-ride-section {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.section-badge {
+  display: inline-block;
+  background: #0ea5e9;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.step-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.step-item:hover {
+  transform: translateY(-10px);
+}
+
+.step-number-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.step-number {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.step-item:hover .step-number {
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+  transform: scale(1.1);
+  box-shadow: 0 15px 40px rgba(14, 165, 233, 0.4);
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.7;
+}
